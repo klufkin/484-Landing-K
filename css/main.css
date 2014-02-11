@@ -137,6 +137,12 @@ header{
 
 .section{
 	padding:40px 0;
+    border-bottom: #04a9ef 3px solid;
+    height: 410px;
+}
+
+.section:last-child{
+    border: none;
 }
 
 .section-gray{
@@ -149,13 +155,8 @@ header{
 .sectionText{
 	text-align: center;
 	width:60%;
-	margin: 0 auto;
+	margin: 40px auto 20px;
 	font-size: 1.7em;
-	padding:40px 0;
-}
-
-.bottomSpace{
-	padding-bottom: 40px;
 }
 
 .seoImages{
@@ -169,31 +170,50 @@ header{
 .attention{
 	text-align: center;
 	padding:40px 0;
-	
 }
 .attention h1{
 	font-size: 3em;
 	margin:0;
+    margin-top: 80px;
 	padding:0;
 }
 
 .attention h2{
 	font-size: 2em;
 	margin:0; 
+    margin-bottom: 150px;
 	padding:0;
 }
 
+.video .sectionText {
+    margin-top: 0;
+}
+
 .videoHolder{
-	height:400px;
-	width:650px;
+	height:280px;
+	width:480px;
 	color: white;
 	background-color: black;
 	margin: 0 auto;
 }
 
-.notEqual {
-    background: white;
+.map {
+    background-color: black;
+    color: white;
 }
+
+.map .sectionText {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.mapGraphic{
+    height:300px;
+    width:650px;
+    color: white;
+    background-color: white;
+    margin: 0 auto;
+}
+
 
 /* ==========================================================================
    Down arrow classes
