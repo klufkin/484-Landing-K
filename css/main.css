@@ -132,12 +132,18 @@ header{
 }
 
 .content{
-	height:2000px;
 	margin-top:95px;
 }
 
 .section{
-	margin:40px 0;
+	padding:40px 0;
+}
+
+.section-gray{
+	background-color: #EEE;
+}
+.section-white{
+	background-color: #FFF;
 }
 
 .sectionText{
@@ -145,7 +151,11 @@ header{
 	width:60%;
 	margin: 0 auto;
 	font-size: 1.7em;
-	padding-top:40px;
+	padding:40px 0;
+}
+
+.bottomSpace{
+	padding-bottom: 40px;
 }
 
 .seoImages{
@@ -159,7 +169,7 @@ header{
 .attention{
 	text-align: center;
 	padding:40px 0;
-	background-color: #EEE;
+	
 }
 .attention h1{
 	font-size: 3em;
@@ -173,6 +183,17 @@ header{
 	padding:0;
 }
 
+.videoHolder{
+	height:400px;
+	width:650px;
+	color: white;
+	background-color: black;
+	margin: 0 auto;
+}
+
+/* ==========================================================================
+   Down arrow classes
+   ========================================================================== */
 
 .downNav{
 	text-align: center;
