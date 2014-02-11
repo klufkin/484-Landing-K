@@ -136,6 +136,26 @@ header{
 	margin-top:95px;
 }
 
+.section{
+	margin:40px 0;
+}
+
+.sectionText{
+	text-align: center;
+	width:60%;
+	margin: 0 auto;
+	font-size: 1.7em;
+	padding-top:40px;
+}
+
+.seoImages{
+	text-align: center;
+}
+
+.seoImage:first-child{
+	margin-right:100px;
+}
+
 .attention{
 	text-align: center;
 	padding:40px 0;
